@@ -20,3 +20,30 @@ header {
     flex-direction: column;
     gap: 20px;
 }
+.news-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    display: flex;
+    overflow: hidden;
+}
+
+.news-card img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h2 {
+    margin-top: 0;
+    color: #0f172a;
+}
+
+.news-content p {
+    color: #475569;
+    line-height: 1.6;
+}
