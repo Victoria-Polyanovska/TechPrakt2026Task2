@@ -102,3 +102,5 @@ class UserPanels {
     }
 }
 let userPanels = new UserPanels(arr);
+
+//Редаговано: Поляновська Вікторія
